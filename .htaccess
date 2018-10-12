@@ -1,7 +1,9 @@
 RewriteEngine on
+RewriteBase /
 
-# If a directory or a file exists, use the request directly
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,NE,R=301]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-# Otherwise forward the request to index.php
-RewriteRule . index.php
+RewriteRule ^ index.php [L]
