@@ -1,7 +1,7 @@
 <p align="center" style="font-size:44px; font-weight: bold">
-  <a href="https://www.yiiframework.com target="_blank">
-    Go Funding
-  </a>
+    <a href="https://gofunding.ga" target="_blank">
+        Go Funding
+    </a>
 </p>
 Open Source CrowdFunding Platform.
 
