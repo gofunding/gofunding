@@ -1,0 +1,55 @@
+# Logs
+/app/runtime/debug/*
+logs/*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+
+# local phpunit config
+/phpunit.xml
+
+# tests
+tests/_output/*
+tests/_support/_generated
+
+# config local
+/app/config/db.php
+/app/config/db-local.php
+/app/config/web-local.php
+/index.php
+
+# assets
+/assets/*
