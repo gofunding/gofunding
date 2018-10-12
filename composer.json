@@ -1,13 +1,17 @@
 {
     "name": "gofunding/gofunding",
-    "description": "GoFunding is a crowdfunding platform",
-    "keywords": ["yii2", "framework", "basic", "crowdfunding", "gofunding"],
-    "homepage": "http://www.yiiframework.com/",
-    "type": "open-source-project",
-    "license": "MTI",
+    "description": "Gofunding is a crowdfunding platform",
+    "keywords": ["yii2", "framework", "crowdfunding", "gofunding"],
+    "homepage": "https://www.gofunding.ga/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gofunding/gofunding"
+    },
+    "license": "MIT",
     "support": {
         "issues": "https://github.com/gofunding/gofunding/issues?state=open",
-        "source": "https://github.com/gofunding/gofunding"
+        "source": "https://github.com/gofunding/gofunding",
+        "email": "haifahrul@gmail.com"
     },
     "minimum-stability": "dev",
     "require": {
