@@ -1,5 +1,5 @@
 <p align="center" style="font-size:44px; font-weight: bold">
-    <a href="https://gofunding.ga" target="_blank">
+    <a href="https://gofunding.demo.afsyah.com/" target="_blank">
         Go Funding
     </a>
 </p>
