@@ -19,7 +19,7 @@ $this->title = 'Masuk';
         <div class="site-login panel panel-default text-center">
             <div class="panel-body">
                 <h2>Hi, Orang Baik!</h2>
-                <h4>Silakan login untuk mengakses semua fitur yarsipeduli.com</h4>
+                <h4>Silakan login untuk mengakses semua fitur go-funding</h4>
                 <hr>
                 <?php
                 $form = ActiveForm::begin([
@@ -33,7 +33,7 @@ $this->title = 'Masuk';
 
                 ?>
 
-                <?= $form->field($model, 'username')->textInput(['placeholder' => 'NPM / NIK', 'autofocus' => true])->label(false) ?>
+                <?= $form->field($model, 'username')->textInput(['placeholder' => 'Username', 'autofocus' => true])->label(false) ?>
                 <?= $form->field($model, 'password')->passwordInput(['placeholder' => 'Password'])->label(false) ?>
                 <?php // $form->field($model, 'rememberMe')->checkbox()  ?>
 
