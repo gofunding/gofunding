@@ -1,4 +1,5 @@
 # Logs
+error_log
 /app/runtime/debug/*
 logs/*
 *.log
@@ -53,3 +54,5 @@ tests/_support/_generated
 
 # assets
 /assets/*
+
+.htaccess
