@@ -60,3 +60,7 @@ In root folder, open index.php file and edit code below
 defined('YII_DEBUG') or define('YII_DEBUG', true); // false for no debug
 defined('YII_ENV') or define('YII_ENV', 'dev'); // prod for production
 ```
+
+# Suggest
+
+Welcome, please contact me haifahrul@gmail.com
