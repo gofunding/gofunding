@@ -32,7 +32,7 @@ $this->params['breadcrumbs'][] = 'Pembayaran Belum Selesai';
 
         <div class="text-center">
             <h1>
-                Payment gagal, silahkan hubungi kami di email: admin@yarsipeduli.com
+                Payment gagal, silahkan hubungi kami di email: haifahrul@gmail.com
             </h1>
         </div>
     </div>    

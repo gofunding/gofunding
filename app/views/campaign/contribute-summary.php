@@ -197,7 +197,7 @@ Also input your client key in "data-client-key" -->
                             document.getElementById('result-json').innerHTML += '<a href="/campaign/index"><div class="btn btn-primary">Kembali ke Donasi</div></a><br><br>';
                         } else if (data === 500) {
                             // document.getElementById('result-json').innerHTML = '<div class="result-json-error">Error 500. Terjadi kesalahan, silahkan hubungi admin atau cek status donasi Anda di menu</div>';
-                            document.getElementById('result-json').innerHTML = '<div class="result-json-error">Terjadi kesalahan, silahkan cek donasi Anda di menu <a href="/dashboard/donasi/">Dashboard > Donasi</a> atau hubungi admin Yarsi Peduli</div>';
+                            document.getElementById('result-json').innerHTML = '<div class="result-json-error">Terjadi kesalahan, silahkan cek donasi Anda di menu <a href="/dashboard/donasi/">Dashboard > Donasi</a> atau hubungi admin</div>';
                             document.getElementById('result-json').innerHTML += '<a href="/campaign/index"><div class="btn btn-primary">Kembali ke Donasi</div></a><br><br>';
                         }
                     },
@@ -224,12 +224,12 @@ Also input your client key in "data-client-key" -->
                             document.getElementById('result-json').innerHTML = '<div class="result-json-error">Error 400. Data tidak ditemukan.</div>';
                             document.getElementById('result-json').innerHTML += '<a href="/campaign/index"><div class="btn btn-primary">Kembali ke Donasi</div></a><br><br>';
                         } else if (data === 500) {
-                            document.getElementById('result-json').innerHTML = '<div class="result-json-error">Terjadi kesalahan, silahkan cek donasi Anda di menu <a href="/dashboard/donasi/">Dashboard > Donasi</a> atau hubungi admin Yarsi Peduli</div>';
+                            document.getElementById('result-json').innerHTML = '<div class="result-json-error">Terjadi kesalahan, silahkan cek donasi Anda di menu <a href="/dashboard/donasi/">Dashboard > Donasi</a> atau hubungi admin</div>';
                             document.getElementById('result-json').innerHTML += '<a href="/campaign/index"><div class="btn btn-primary">Kembali ke Donasi</div></a><br><br>';
                         }
                     },
                     error: function (data) {
-                        document.getElementById('result-json').innerHTML = '<div class="result-json-error">Terjadi kesalahan, silahkan cek donasi Anda di menu <a href="/dashboard/donasi/">Dashboard > Donasi</a> atau hubungi admin Yarsi Peduli</div>';
+                        document.getElementById('result-json').innerHTML = '<div class="result-json-error">Terjadi kesalahan, silahkan cek donasi Anda di menu <a href="/dashboard/donasi/">Dashboard > Donasi</a> atau hubungi admin</div>';
                         document.getElementById('result-json').innerHTML += '<a href="/campaign/index"><div class="btn btn-primary">Kembali ke Donasi</div></a><br><br>';
                     }
                 });
@@ -238,7 +238,7 @@ Also input your client key in "data-client-key" -->
             onError: function (result) {
                 /* You may add your own js here, this is just example */
 //                document.getElementById('result-json').innerHTML += JSON.stringify(result, null, 2);
-                document.getElementById('result-json').innerHTML = '<div class="result-json-error">Terjadi kesalahan, silahkan cek donasi Anda di menu <a href="/dashboard/donasi/">Dashboard > Donasi</a> atau hubungi admin Yarsi Peduli</div>';
+                document.getElementById('result-json').innerHTML = '<div class="result-json-error">Terjadi kesalahan, silahkan cek donasi Anda di menu <a href="/dashboard/donasi/">Dashboard > Donasi</a> atau hubungi admin</div>';
                 document.getElementById('result-json').innerHTML += '<a href="/campaign/index"><div class="btn btn-primary">Kembali ke Donasi</div></a><br><br>';
             }
         });

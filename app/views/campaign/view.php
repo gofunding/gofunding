@@ -98,7 +98,7 @@ $formatter = Yii::$app->formatter;
             <br>
             <blockquote>
                 <p><a href="<?= Url::to(Yii::$app->params['uploadUrl'] . 'campaign/proposal/') . $model->upload_file ?>" target="_blank">Download Proposal</a></p> <br>
-                Disclaimer: Informasi dan opini yang tertulis di halaman ini adalah milik campaigner dan tidak mewakili Yarsi Peduli
+                Disclaimer: Informasi dan opini yang tertulis di halaman ini adalah milik campaigner dan tidak mewakili Kami
             </blockquote>
         </div>
         <div class="col-md-4">

@@ -20,7 +20,7 @@ $this->params['breadcrumbs'][] = 'Terjadi Kesalahan';
 
         <div class="text-center">
             <h1>
-                Mohon hubungi kami di email admin@yarsipedul.com dengan SUBJECT PEMBAYARAN_ERROR.
+                Mohon hubungi kami di email haifahrul@gmail.com dengan SUBJECT PEMBAYARAN_ERROR.
             </h1>
         </div>
     </div>
@@ -31,7 +31,7 @@ $this->params['breadcrumbs'][] = 'Terjadi Kesalahan';
 
         <div class="text-center">
             <h1>
-                Payment gagal, silahkan hubungi kami di email: admin@yarsipeduli.com
+                Payment gagal, silahkan hubungi kami di email: haifahrul@gmail.com
             </h1>
         </div>
     </div>    

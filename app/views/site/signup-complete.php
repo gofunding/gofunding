@@ -14,7 +14,7 @@ use yii\helpers\Url;
 		<div class="col-md-12">
 			<div class="text-center">
 				<h1>Selamat, Anda telah terdafar</h1>
-				<h3>Silahkan buat campaign atau donasi di Yarsi Peduli</h3>
+				<h3>Silahkan buat campaign atau donasi</h3>
 			</div>
 		</div>
 	</div>
